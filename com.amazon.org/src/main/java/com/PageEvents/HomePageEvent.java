@@ -20,7 +20,7 @@ public class HomePageEvent extends BaseClass {
 	FetchElements ele = new FetchElements();
 
 	public void searchProd() throws IOException {
-
+//comment 
 		WebElement str1 = ele.getWebElement("XPATH", SearchPage.searchBox);
 		str1.click();
 		// str1.sendKeys("asin ‎‎b00vk5mcmi");
