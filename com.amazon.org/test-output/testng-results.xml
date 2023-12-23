@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-14T20:20:53 IST" name="Suite" finished-at="2023-12-14T20:21:39 IST" duration-ms="46593">
+    <groups>
+    </groups>
+    <test started-at="2023-12-14T20:20:53 IST" name="Test" finished-at="2023-12-14T20:21:39 IST" duration-ms="46593">
+      <class name="com.amazonText.org.TestCase1">
+        <test-method is-config="true" signature="BeforeTestMethod()[pri:0, instance:com.amazonText.org.TestCase1@3e08ff24]" started-at="2023-12-14T20:20:53 IST" name="BeforeTestMethod" finished-at="2023-12-14T20:20:54 IST" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestMethod -->
+        <test-method is-config="true" signature="BeforeTestMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.amazonText.org.TestCase1@3e08ff24]" started-at="2023-12-14T20:20:54 IST" name="BeforeTestMethod" finished-at="2023-12-14T20:21:11 IST" duration-ms="17667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.amazonText.org.TestCase1.SearchProduct() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestMethod -->
+        <test-method signature="SearchProduct()[pri:0, instance:com.amazonText.org.TestCase1@3e08ff24]" started-at="2023-12-14T20:21:11 IST" name="SearchProduct" finished-at="2023-12-14T20:21:39 IST" duration-ms="27371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="Aftermethod(org.testng.ITestResult)[pri:0, instance:com.amazonText.org.TestCase1@3e08ff24]" started-at="2023-12-14T20:21:39 IST" name="Aftermethod" finished-at="2023-12-14T20:21:39 IST" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchProduct status=SUCCESS method=TestCase1.SearchProduct()[pri:0, instance:com.amazonText.org.TestCase1@3e08ff24] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethod -->
+      </class> <!-- com.amazonText.org.TestCase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
